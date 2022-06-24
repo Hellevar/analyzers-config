@@ -1,7 +1,10 @@
-﻿# editorconfig.org
+# editorconfig.org
 
 # top-most EditorConfig file
 root = true
+
+# Fail build on style errors
+dotnet_analyzer_diagnostic.category-Style.severity = error
 
 # Default settings:
 # A newline ending every file
